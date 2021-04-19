@@ -9,7 +9,7 @@ k_f = 0.1;    %kinetic rate constants for forward and reverse reactions
 k_r = 0.1;
 
 Iterations = 1000;   %number of individual reactions to occur
-FinalTime = 2;  %final time for simulation
+FinalTime = 5;  %final time for simulation
 
 %Memory Allocation
 t_DE = zeros(1,1+Iterations);
@@ -25,12 +25,12 @@ t_DE(1) = 0;    %initial time values for each method
 t_Direct(1) = 0;
 t_First(1) = 0;
 
-A_DE(1) = 200;   %initial A-population values
-A_Direct(1) = 200;
-A_First(1) = 200;
-B_DE(1) = 150;   %initial B-population values
-B_Direct(1) = 150;
-B_First(1) = 150;
+A_DE(1) = 100;   %initial A-population values
+A_Direct(1) = 100;
+A_First(1) = 100;
+B_DE(1) = 75;   %initial B-population values
+B_Direct(1) = 75;
+B_First(1) = 75;
 C_DE(1) = 0;    %initial C-population values
 C_Direct(1) = 0;
 C_First(1) = 0;
