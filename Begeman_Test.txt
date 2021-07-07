@@ -1,2 +1,4 @@
 Testing whether this can get transferred to my laptop when pushed to repository.
 Helpful when working with codes in Begeman vs. @home.
+
+Now what happens when I make changes on my laptop?
